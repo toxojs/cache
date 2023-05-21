@@ -1,5 +1,5 @@
 {
-  "name": "@luar/cache",
+  "name": "@toxo/cache",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,21 @@
     "test": "eslint --fix . && jest --silent --coverage --maxWorkers=4 .",
     "start": "node ."
   },
-  "author": "",
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"    
+  },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxojs/cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toxojs/cache/issues"
+  },  
   "devDependencies": {
     "eslint": "^8.40.0",
     "eslint-config-airbnb-base": "^15.0.0",
